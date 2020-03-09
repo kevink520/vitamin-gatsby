@@ -12,7 +12,7 @@ import CopywritingSVG from '../images/svg/copywriting.inline.svg'
 import EmailDesignSVG from '../images/svg/email-design.inline.svg'
 import LayoutSVG from '../images/svg/layout.inline.svg'
 import WPDevelopSVG from '../images/svg/wp-develop.inline.svg'
-import EcommerceSVG from '../images/svg/Ecommerce.inline.svg'
+import EcommerceSVG from '../images/svg/ecommerce.inline.svg'
 import HostingSVG from '../images/svg/hosting.inline.svg'
 import Portfolio from "../components/portfolio"
 import About from "../components/about"
