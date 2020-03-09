@@ -43,7 +43,7 @@ const isTouchDevice = () => {
 
   const prefixes = ' -webkit- -moz- -o- -ms- '.split(' ')
   const mq = query => (
-    window.matchMedia(query).matches
+    typeof window !== 'undefined' && window.matchMedia(query).matches
   )
 
   // include the 'heartz' as a way to have a non matching MQ to help terminate the join

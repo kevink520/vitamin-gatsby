@@ -37,7 +37,7 @@ const MainMenu = () => (
             <Logo />
           </Link>
         </div>
-        {window.location.pathname !== '/sinecharta-app-privacy-policy' &&
+        {typeof window !== 'undefined' && window.location.pathname !== '/sinecharta-app-privacy-policy' &&
         <Navbar.Collapse id="navbar-collapse">
           <Scrollspy items={['home', 'services', 'portfolio', 'about', 'contact']} currentClassName="active" offset={-96} className="nav navbar-nav navbar-right">
             {props.allWordpressWpApiMenusMenusItems.edges[0].node.items.map(({
@@ -52,7 +52,7 @@ const MainMenu = () => (
                   href={url}
                   onClick={e => {
                     e.preventDefault();
-                    gsap.to(window, { duration: 1, scrollTo: { y: url, offsetY: 95 } });
+                    typeof window !== 'undefined' && gsap.to(window, { duration: 1, scrollTo: { y: url, offsetY: 95 } });
                   }}
                 >{title}</a> :
                 <Link
