@@ -33,7 +33,7 @@ const startDelay3 = startDelay2 + strings2[0].length * typeSpeed + 300
 const startDelay4 = startDelay3 + strings3[0].length * typeSpeed + 300
 const startDelay5 = startDelay4 + strings4[0].length * typeSpeed + 300
 
-ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax)
+ScrollMagicPluginGsap && ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax)
 let controller
 
 const isTouchDevice = () => {
