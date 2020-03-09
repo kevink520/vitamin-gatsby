@@ -4,7 +4,7 @@ import React from "react"
 import Logo from "./logo"
 import gsap, { ScrollToPlugin } from "gsap/all"
 import Scrollspy from 'react-scrollspy'
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
+import { Navbar, Container } from 'react-bootstrap'
 
 gsap.registerPlugin(ScrollToPlugin);
 

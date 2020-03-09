@@ -34,7 +34,7 @@ const Portfolio = props => (
           }) => (
             <div key={`c${wordpress_id}`} className="col-sm-4">
               <div className={`item item${i + 1}`} itemscope itemtype="http://schema.org/WebPage">
-                <a className="link-to-client-site" href={stripTagsAndNewlines(caption)} target="_blank">
+                <a className="link-to-client-site" href={stripTagsAndNewlines(caption)} target="_blank" rel="noopener noreferrer">
                   <img src={source_url} alt={title} />
                   <div className="description">
                     <h4 itemprop="name">{title}</h4>
