@@ -11,7 +11,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
       module: {
         rules: [
           {
-            test: /ScrollMagic|enquire|ScrollMagicPluginGsap/,
+            test: /ScrollMagic|enquire|scrollmagic-plugin-gsap/,
              use: loaders.null(),
           },
         ],
