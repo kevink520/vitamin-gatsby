@@ -58,7 +58,7 @@ module.exports = {
         // The IDs provided to this array should correspond to the `post_id` value when defining your
         // options page using the provided `acf_add_options_page` method, in your WordPress setup
         // Dashes in IDs will be converted to underscores for use in GraphQL
-        acfOptionPageIds: ['Homepage Slider', 'Homepage Portfolio'],
+        acfOptionPageIds: [],
         auth: {
           // If auth.user and auth.pass are filled, then the source plugin will be allowed
           // to access endpoints that are protected with .htaccess.
