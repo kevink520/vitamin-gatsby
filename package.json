@@ -61,5 +61,6 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "lambda-build": "netlify-lambda build functions && node -p 'process.env'"
 }
