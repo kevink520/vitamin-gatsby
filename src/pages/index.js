@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Helmet } from "react-helmet"
 import * as ScrollMagic from 'scrollmagic'
 import gsap, { TimelineMax, TweenMax } from 'gsap'
 import { ScrollMagicPluginGsap } from 'scrollmagic-plugin-gsap'
@@ -238,6 +239,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Home | Vitamin Digital Media</title>
+        <link rel="canonical" href="https://www.digitalmedia.nyc/" />
+      </Helmet>
       <div id="home" className="container slideshow">
         <div className="row">
           <div className="col-md-4 main-intro">
