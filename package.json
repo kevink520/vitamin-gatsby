@@ -14,6 +14,7 @@
     "enquire.js": "^2.1.6",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
+    "gatsby-plugin-google-tagmanager": "^2.2.1",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-netlify": "^2.1.34",
     "gatsby-plugin-offline": "^3.0.32",
