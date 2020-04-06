@@ -422,8 +422,8 @@ const IndexPage = () => {
           <div>
             <form name="vitamin_contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field"> 
               <input type="hidden" name="form-name" value="vitamin_contact" />
-              <p><span className="form-control-wrap your-name"><input type="text" name="your-name" size="40" maxlength="80" id="name" placeholder="Your name" /></span></p>
-              <p><span className="form-control-wrap your-email"><input type="email" name="your-email" size="40" maxlength="80" id="email" placeholder="Your email" /></span></p>
+              <p><span className="form-control-wrap your-name"><input type="text" name="your-name" size="40" maxlength="80" id="name" placeholder="Your name" required /></span></p>
+              <p><span className="form-control-wrap your-email"><input type="email" name="your-email" size="40" maxlength="80" id="email" placeholder="Your email" required /></span></p>
               <p><span className="form-control-wrap your-subject"><input type="text" name="your-subject" size="40" maxlength="80" id="subject" placeholder="Subject" /></span></p>
               <p><span className="form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" maxlength="5000" id="message" placeholder="Your message"></textarea></span></p>
               <p><input type="submit" value="Send" id="submit" /></p>
