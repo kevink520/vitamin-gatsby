@@ -23,6 +23,7 @@ const About = () => (
             <p className="lead" itemprop="description">{ReactHtmlParser(props.wordpressPage.acf.about_section_subheading)}</p>
             {ReactHtmlParser(props.wordpressPage.acf.about_section_content)}
             <div className="social-buttons">
+              <a className="social-button" href="https://www.freecodecamp.org/kevink520" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'free-code-camp']} /></a>
               <a className="social-button" href="https://codepen.io/kevink520/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'codepen']} /></a>
               <a className="social-button" href="https://github.com/kevink520" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={['fab', 'github']} /></a>
             </div>
