@@ -22,7 +22,7 @@
     "gatsby-plugin-react-svg": "^3.0.0",
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-source-wordpress": "^3.1.62",
+    "gatsby-source-wordpress": "^4.0.8",
     "gatsby-transformer-sharp": "^2.3.13",
     "google-map-react": "^1.1.6",
     "gsap": "^3.2.0",
